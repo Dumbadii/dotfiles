@@ -1,1 +1,6 @@
-/home/yc/.ssh/config
+Host github.com
+User git
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_ed25519.pub
+Port 443
